@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Formulário </title>
+    </head>
+
+    <body>
+        <head> 
+            <h1> Pesquisa de satisfação  </h1>
+        </head>
+        
+        <main>
+            <form method="post" action="processar-pesquisa.html">
+                <!-- Dados Pessoais -->
+                <h3> Dados Pessoais </h3>
+                <p>
+                    <label for="#nome"> Seu nome:</label>
+                    <input type="text" id="#nome"/>
+                </p>
+                <p>
+                    <label for="#email"> Email: </label>
+                    <input type="email" placeholder="usuario@gmail.com" id="#email"/>
+                </p>
+                <p>
+                    <label for="#telefone"> Número de contato: </label>
+                    <input type="tel" id="#telefone"/>
+                </p>
+                <p>
+                    <label for="#estado"> Estado: </label>
+                    <select id="#estado"> 
+                        <option> Minas Gerais </option>
+                        <option> São Paulo </option>
+                        <option> Rio de Janeiro </option>
+                        <option> Bahia </option>
+                        <option> Santa Catarina </option>
+                        <option> Mato Grosso </option>
+                        <option> Amazonas </option>
+                        <option> Ceara </option>
+                    </select>
+                </p>
+                <br>
+                
+                <!-- Pesquisa -->
+                <h3> Pesquisa:</h3>
+                <p>
+                    Como você reage ao atendimento: 
+                    <input type="radio" id="#otimo" name="opções"/>
+                    <label for="#otimo"> Muito Satisfeito </label>
+    
+                    <input type="radio" id="#bom" name="opções"/>
+                    <label for="#bom"> Satisfeito </label>
+                   
+                    <input type="radio" id="#ruim" name="opções"/>
+                    <label for="#ruim"> Insatisfeito </label>
+                    
+                </p>
+                <p>
+                    Numa escola de 1 a 5, avalie o atendimento:
+                    <input type="radio" id="#1" name="número"/>
+                    <label for="#1"> 1 </label>
+    
+                    <input type="radio" id="#2" name="número"/>
+                    <label for="#2"> 2 </label>
+                   
+                    <input type="radio" id="#3" name="número"/>
+                    <label for="#3"> 3 </label>
+
+                    <input type="radio" id="#4" name="número"/>
+                    <label for="#4"> 4 </label>
+                   
+                    <input type="radio" id="#5" name="número"/>
+                    <label for="#5"> 5 </label>
+                </p>
+                <p>
+                    <label for="#sugestão"> Sugestão: </label> <br> 
+                    <textarea id="#sugestão"> </textarea>
+                </p>
+                <p>
+                    <input type="checkbox" id="#check"/>
+                    <label for="#check"> Concordo com os termos de uso </label>
+                </p>
+                <br>
+                
+                <!-- Botão -->
+                <input type="button" value="Enviar"/>
+
+            </form>
+        </main>
+    </body>
+</html>
