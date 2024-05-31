@@ -1,0 +1,90 @@
+/* Cores da página 
+.Fundo { color: #2A8C82; }
+.Texto { color: #41BFB3; }
+.Título { color: #9BF2EA; }
+.Backround { color: #260101; } */
+
+html{
+    background: #260101;
+    color: #41BFB3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+header{
+    padding: 5px;
+}
+
+.page-wrapper{
+    margin: auto;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.page-wrapper div{
+    padding-top: 20px;
+}
+
+.main footer{
+    margin: 4%;
+}
+
+.main footer a{
+    border: solid 2px;
+    padding: 0.5em;
+    display:inline-block;
+}
+
+
+#design-archives{
+    display: none;
+}
+
+header{
+    background-color:#2A8C82;
+    color: #260101; 
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside ul li{
+    margin: 1em;
+    text-align: center;
+}
+
+a{
+    color: #41BFB3
+}
+
+h1,h2,h3{
+    color: #9BF2EA;
+    text-align: center;
+}
+
+h1{font-size: 1.8em;}
+h2{font-size: 1.4em;}
+h3{font-size: 1.2em;}
+
+.summary{
+    display: inline;
+    position: relative;
+}
+
+.summary p{
+    text-align: center;
+}
+
+p{
+    text-indent: 1em;
+    text-align: justify;
+}
+
+main p{
+    line-height: 1.5;
+}
+
+abbr{
+    font-variant: small-caps;
+}
