@@ -11,7 +11,8 @@ html{
     font-size: 16px;
 }
 
-header{
+.intro{
+    height: 550px;
     padding: 5px;
 }
 
@@ -41,21 +42,20 @@ header{
 }
 
 header{
+    display: flex;
+    justify-content:space-around;
     background-color:#2A8C82;
     color: #260101; 
 }
 
-aside ul{
-    list-style: none;
-}
 
-aside ul li{
-    margin: 1em;
-    text-align: center;
-}
 
 a{
-    color: #41BFB3
+    color: #41BFB3;
+}
+
+footer a{   
+    text-decoration: none;
 }
 
 h1,h2,h3{
@@ -66,6 +66,10 @@ h1,h2,h3{
 h1{font-size: 1.8em;}
 h2{font-size: 1.4em;}
 h3{font-size: 1.2em;}
+
+h1{
+    line-height: 1em;
+} 
 
 .summary{
     display: inline;
@@ -87,4 +91,22 @@ main p{
 
 abbr{
     font-variant: small-caps;
+}
+
+.sidebar{
+    background-color:#2A8C82;
+    padding: 4em;
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside ul li{
+    margin: 1em;
+    text-align: center;
+}
+
+aside a{
+    color: #260101;
 }
