@@ -176,3 +176,62 @@ aside ul li{
 #design-selection li:last-child{
     border-bottom:#260101 solid 1px;
 }
+
+@media screen and (width <= 768px){
+    #design-selection{
+        position: static;
+        width: 100%;
+        background: none;
+    }
+    #design-selection a{
+        color: white;
+    }
+    .explanation{
+        border-right: none;
+        border-top: none;
+        width: 100%;
+    }
+    .intro{
+        height: auto;
+    }
+    .participation{
+        flex-direction: column;
+    }
+    p{
+        text-indent: 0em;
+    }
+}
+
+@media print{
+    html{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    html p,h1,h2,h3{
+        color:black
+    }
+    header{
+        background-color:#260101;
+    }
+    #design-selection{
+        position: static;
+        width: 100%;
+        background: none;
+    }
+    #design-selection a{
+        color: white;
+    }
+    .explanation{
+        border-right: none;
+        border-top: none;
+        width: 100%;
+    }
+    .intro{
+        height: auto;
+    }
+    .participation{
+        flex-direction: column;
+    }
+    p{
+        text-indent: 0em;
+    }
+}
