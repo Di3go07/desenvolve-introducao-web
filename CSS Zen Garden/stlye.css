@@ -27,6 +27,8 @@ html{
     width: 60%;
     border-right: #2A8C82 solid 1px;
     padding: 3%;
+    padding-top: 70px;
+    padding-bottom: 70px;
     border-top: #2A8C82 solid 1px;
 }
 
@@ -53,8 +55,13 @@ header{
 }
 
 a{
-    color: #41BFB3;
+    color: #9BF2EA;
 }
+
+a:hover{
+    color:#2A8C82;
+}
+
 
 footer a{   
     text-decoration: none;
@@ -124,6 +131,13 @@ main p{
     line-height: 1.5;
 }
 
+.main p:first-of-type::first-letter{
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+}
+
+
 abbr{
     font-variant: small-caps;
 }
@@ -141,7 +155,7 @@ aside ul li{
 #design-selection{
     margin: 0px;
     position: absolute;
-    top: 548px;
+    top: 550px;
     left: 65%;
     padding-right: 25px;
     padding-top: 9px;
@@ -151,4 +165,14 @@ aside ul li{
 
 #design-selection a{
     color: #260101;
+}
+
+#design-selection li{
+    border-top:#260101 solid 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#design-selection li:last-child{
+    border-bottom:#260101 solid 1px;
 }
