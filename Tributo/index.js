@@ -1,4 +1,10 @@
+//BOTÃO INTEGRANTES
+
 const button = document.getElementById('botãoIntegrante');
+const proximo = document.getElementById('proximo');
+const voltar = document.getElementById('voltar');
+const listaMusicas = document.getElementById('listaMusicas')
+
 
 button.addEventListener("click", buscarIntegrante);
 
@@ -34,11 +40,76 @@ function buscarIntegrante() {
 }
 
 
+//CUSTOMIZAÇÃO
 const atrasaMudancas = () => 
     setTimeout(() => {
         const elemento = document.getElementsByTagName('h1');
         elemento[0].style.fontSize = '80px';
         elemento[0].style.color = 'red';
+        button.style.cursor = 'pointer';
+        proximo.style.cursor = 'pointer';
+        voltar.style.cursor = 'pointer';
+
     }, 3000);
 
 atrasaMudancas();
+
+
+//BOTÃO MUSICAS
+
+let i = 0;
+
+const chamarProximo = () => { 
+    i++;
+    voltar.disabled = false
+    if (i == 1) { 
+        const novasMusicas = ['Zero e Um', 'Dentes Amarelos', 'Você', 'Doutrina do Choque', 'Roubando Comida'];
+        for (li = 0; li < novasMusicas.length; li++) { 
+            const musica = listaMusicas.querySelectorAll('li')[li];
+            musica.innerText = novasMusicas[li];
+        }
+    }
+    if (i == 2) { 
+        const novasMusicas = ['Tão Iguais', 'A Urgência', 'Não Termina Assim','Avenida Maruípe', 'Contra Todos'];
+        for (li = 0; li < novasMusicas.length; li++) { 
+            const musica = listaMusicas.querySelectorAll('li')[li];
+            musica.innerText = novasMusicas[li];
+        }
+    }
+    if (i >= 2) { 
+        proximo.disabled = true;
+    }
+    console.log(i)
+
+};
+
+const chamarVoltar = () => {
+    proximo.disabled = false;
+    i--;
+    if (i == 0) { 
+        const novasMusicas = ['Queda Livre', 'Sonho Médio', 'Gigante Inseguro', '49', 'Sangue nas Mãos'];
+        for (li = 0; li < novasMusicas.length; li++) { 
+            const musica = listaMusicas.querySelectorAll('li')[li];
+            musica.innerText = novasMusicas[li];
+        }
+    }
+    if (i == 1) { 
+        const novasMusicas = ['Zero e Um', 'Dentes Amarelos', 'Você', 'Doutrina do Choque', 'Roubando Comida'];
+        for (li = 0; li < novasMusicas.length; li++) { 
+            const musica = listaMusicas.querySelectorAll('li')[li];
+            musica.innerText = novasMusicas[li];
+        }
+    }
+    if (i == 2) { 
+        const novasMusicas = ['Tão Iguais', 'A Urgência', 'Não Termina Assim','Avenida Maruípe', 'Contra Todos'];
+        for (li = 0; li < novasMusicas.length; li++) { 
+            const musica = listaMusicas.querySelectorAll('li')[li];
+            musica.innerText = novasMusicas[li];
+        }
+    }
+    if (i == 0) { 
+        voltar.disabled = true;
+    }
+    console.log(i)
+
+};
