@@ -1,0 +1,108 @@
+.musicas{
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+    position: relative;
+    top: 0px;
+}  
+
+.musicas h2{
+    text-align: center;
+    padding-left: 70px;
+    font-size: 40px;
+    padding-right: 100px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.musicas a{
+    text-decoration: none;
+}
+
+.parte-1{
+    position: absolute;
+    top: 0px;
+    border: solid 3px black;
+}
+
+.parte-2{
+    position: relative;
+    top: -202px;
+    left: 182.2vh;
+    border: solid 3px black;
+}
+
+
+
+.ordem img{
+    position: relative;
+    width: 30px;
+    top: 4px;
+}
+
+.musica-1{
+    display: inline-block;
+    position: absolute;
+    top: 200px;
+    left: 550px;
+}
+
+.musica-1 img{
+    padding-right: 35px;
+}
+
+.musica-2{
+    display: inline-block;
+    position: absolute;
+    left: 550px;
+    top: 290px;
+}
+
+.musica-2 img{
+    padding-right: 85px;
+}
+
+.musica-3{
+    display: inline-block;
+    position: absolute;
+    left: 605px;
+    top: 380px;
+}
+
+.musica-3 img{
+    position: relative;
+    left: -55px;
+    padding-right: 5px;
+}
+
+.musica-4{
+    display: inline-block;
+    position: absolute;
+    left: 580px;
+    top: 470px;
+}
+
+.musica-4 img{
+    position: relative;
+    left: -30px;
+    padding-right: 18px;
+}
+
+.musica-5{
+    display: inline-block;
+    position: absolute;
+    left: 555px;
+    top: 560px;
+}
+
+.musica-5 img{
+    position: relative;
+    left: -5px;
+    padding-right: 20px;
+}
+
+.primeira:hover{width: 35px;}
+.segunda:hover{width: 35px;}
+.terceira:hover{width: 35px;}
+.quarta:hover{width: 35px;}
+.quinta:hover{width: 35px;}

@@ -1,0 +1,31 @@
+/* colors:  
+    fonte - #F2F2F2
+    destaque - #262626
+    fundo - #444444
+    terciaria - #222222
+*/
+
+
+main{
+    background: #444444;
+    position: relative;
+    top: 65vh;
+    color: #F2F2F2;
+    line-height: 1.5;
+}
+
+article{
+    margin-top: 0px;
+}
+
+h2{
+    font-family: 'Libre Baskerville';
+}
+
+h4{
+    font-family: 'Libre Baskerville';
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 600;
+    word-spacing: 8px;
+}

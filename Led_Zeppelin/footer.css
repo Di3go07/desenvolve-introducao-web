@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    position: absolute;
+    top: 4880px;
+    width: 206.3vh;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    color: #F2F2F2;
+    background-color: #262626;
+}
+
+footer p{
+    position: relative;
+    text-align: center;
+    font-family: 'Libre Baskerville';
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+
+.sites{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.sites a{
+    color: white;
+    display: inline-block;
+    padding-left: 50px;
+    text-decoration:underline;
+}

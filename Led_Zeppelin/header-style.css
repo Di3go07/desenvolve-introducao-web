@@ -1,0 +1,88 @@
+/* Geral */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*::-webkit-scrollbar{
+    width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: black;
+  }
+
+*::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Header */
+
+body{
+    position: relative;
+    background-color: black;
+    padding-bottom: 15px;
+}
+
+img.topo{
+    float: inline-start;
+    position: absolute;
+    top: 55px;
+    width: 99.6vw;
+    height: 101.5vh;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+}
+
+
+h1{
+    position: relative;
+    text-align: center;
+    font-family: 'Libre Baskerville';
+    top: 425px;
+    font-size: 160px;
+    padding-top: 25px;
+    -webkit-text-stroke: 4px rgb(23, 36, 36);
+    -webkit-text-fill-color: rgb(0, 0, 0, 0);
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-position: 1450px;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-image: url(https://i.pinimg.com/originals/b6/ac/76/b6ac762c604bbad0bfd19ce7b8c53ea9.jpg);
+}
+
+ul{
+    background-image: url(https://i.pinimg.com/originals/b6/ac/76/b6ac762c604bbad0bfd19ce7b8c53ea9.jpg);
+    background-repeat:no-repeat;
+    background-size: 99.6vw;
+    padding-left: 15px;
+}
+
+header li{
+    font-family: 'Libre Baskerville';
+    color: gray;
+    -webkit-text-stroke: 1px black;
+    font-size: 1.25em;
+    font-weight: 600;
+    display:inline-block;
+    align-items: right;
+    padding-left: 5px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding-right: 5px
+}
+
+header a{
+    color: gray;
+    -webkit-text-stroke: 1px black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+li:hover{ text-transform: uppercase; background-color: white};
+
